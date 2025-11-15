@@ -1,6 +1,4 @@
-from django.db import models
 
-# Create your models here.
 from django.db import models
 
 class Coche(models.Model):
@@ -9,4 +7,3 @@ class Coche(models.Model):
 
     def __str__(self):
         return f"{self.modelo} - {self.precio}€"
-
